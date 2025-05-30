@@ -5,7 +5,7 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <h1 style={{color: 'white'}}>Граф советских карикатур</h1>
+            <h1 style={{color: 'white'}}>Карта советских карикатур</h1>
             <Graph />
         </div>
     );
