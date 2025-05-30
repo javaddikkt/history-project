@@ -119,8 +119,8 @@ export const Graph: React.FC = () => {
     return (
         <>
             {!filterTag && (
-                <div style={{marginTop: '10px', marginLeft: '20px', fontSize: 25}}>
-                <label htmlFor="group-type" style={{marginRight: 8}}>
+                <div style={{marginTop: '20px', marginLeft: '20px', fontSize: 25}}>
+                <label htmlFor="group-type" style={{marginRight: 8, color: '#ffffff'}}>
                     Группировать по:
                 </label>
                 <select
@@ -141,7 +141,7 @@ export const Graph: React.FC = () => {
             )}
 
             {filterTag && (
-                <div style={{marginTop: '0px', marginLeft: '25px', fontSize: 25}}>
+                <div style={{marginTop: '0px', marginLeft: '20px', fontSize: 25, color: '#ffffff'}}>
                     <p><strong>Фильтр по тегу:</strong> {filterTag}</p>
                     <button
                         onClick={() => setFilterTag('')}
